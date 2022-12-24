@@ -1,0 +1,18 @@
+{
+    "name": "moataz/php-mvc",
+    "autoload": {
+        "psr-4": {
+            "Trinto\\": "src",
+            "App\\" : "App"
+        }
+    },
+    "authors": [
+        {
+            "name": "Moataz Ahmed"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/var-dumper": "^6.2"
+    }
+}
